@@ -10,7 +10,7 @@ These instructions do not specify every single detail you should take into consi
 
 Build a dockerized NodeJS application to process all transactions starting from block `14348850` to `14348860` of Ethereum blockchain.
 
-The command docker compose up **MUST**
+The command `docker compose up` **MUST**
 1. Read all transactions from each block and store all Mint/Transfer event details of NFT contracts only in the database of your choice. (Preferably timescale DB)
 2. Retrieve all NFTs of `0x5930DB0F73b9bCF40F42d72DABbFdd16249EC5Be` (Tri3es) from the database and print on `stdout`.
 
